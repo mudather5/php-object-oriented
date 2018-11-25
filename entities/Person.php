@@ -1,5 +1,7 @@
 <?php
 
+ declare(strict_types = 1);
+
 class Person{
 
     private $_firstname;
@@ -14,13 +16,17 @@ class Person{
 
     }
 
-    public function setFname($firstname){
+
+
+    public function setFname(string $firstname){
 
         $this->_firstname = $firstname;
 
     }
 
-    public function setLname($lastname){
+    
+
+    public function setLname(string $lastname){
 
         $this->_lastname = $lastname;
 
@@ -33,10 +39,12 @@ class Person{
     }
 
     public function getFname(){
+        
         return $this->_firstname;
     }
 
     public function getlname(){
+
         return $this->_lastname;
     }
 
@@ -54,3 +62,5 @@ class Person{
 
 $john = new Person("John", "Nono", "16 Rue de Lannoy Lille");
 $john->personInfo();
+
+
