@@ -10,9 +10,9 @@ class Database
 
 // connection settings
 const HOST  = "localhost";
-const DBNAME = "mini_jeu"; // votre base de données
-const LOGIN = "root"; // votre login
-const PWD = "root"; // votre mot de passe
+const DBNAME = "mini-jeu"; // the name of the data base
+const LOGIN = "root"; // login in the data base
+const PWD = "root"; // the pass word of the data base
 
   /**
    * Function to connect to the DB

@@ -1,9 +1,14 @@
 <?php
-class City{
+class Town{
     public $name;
     public $department;
    
     
+    /**
+     * theCity
+     *
+     * @return void
+     */
     public function theCity()
     {
            
@@ -14,7 +19,7 @@ class City{
               
   }
   
-$city = new City();
+$city = new Town();
 $city->name = "Lille";
 $city->department = "Nord-Pas de Calais";
 $city->theCity();
