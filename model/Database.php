@@ -12,7 +12,7 @@ class Database
 const HOST  = "localhost";
 const DBNAME = "mini-jeu"; // the name of the data base
 const LOGIN = "root"; // login in the data base
-const PWD = "root"; // the pass word of the data base
+const PWD = ""; // the pass word of the data base
 
   /**
    * Function to connect to the DB
