@@ -12,7 +12,7 @@ class City{
      * @param  mixed $name
      * @param  mixed $department
      *
-     * @return void
+     * constructer function for initialising object's properties
      */
     public function __construct($name, $department)
     {
@@ -25,7 +25,7 @@ class City{
      *
      * @param  mixed $name
      *
-     * @return void
+     * function setter for the name which allows us to “set” the value of a given property.
      */
     public function setName($name){
         $this->name = $name;
@@ -35,7 +35,7 @@ class City{
      *
      * @param  mixed $department
      *
-     * @return void
+     * function setter for the department which allows us to “set” the value of a given property.
      */
     public function setDepartment($department){
         $this->department = $department;
@@ -44,7 +44,7 @@ class City{
     /**
      * getName
      *
-     * @return void
+     *function getName we use it in order to recover or “get” a given property
      */
     public function getName(){
         return $this->name;
@@ -53,7 +53,7 @@ class City{
     /**
      * getDepartment
      *
-     * @return void
+     *function getDepartment we use it in order to recover or “get” a given property
      */
     public function getDepartment(){
         return $this->department;
@@ -62,7 +62,7 @@ class City{
   }
 
 
-$town = new City("Lille", "Nord-Pas de Calais"); //new object
+$town = new City("Lille", "Nord-Pas de Calais"); //for creating a new object
 
 echo "Name of city is: ". $town->getName()."<br>";
 echo "the department is: ".$town->getDepartment();

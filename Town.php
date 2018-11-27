@@ -5,9 +5,8 @@ class Town{
    
     
     /**
-     * theTown
+     * theTown is a function which display all the value that we made them in new object
      *
-     * @return void
      */
     public function theTown()
     {
