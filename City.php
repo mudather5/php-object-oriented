@@ -60,3 +60,9 @@ class City{
     }
               
   }
+
+
+$town = new City("Lille", "Nord-Pas de Calais"); //new object
+
+echo "Name of city is: ". $town->getName()."<br>";
+echo "the department is: ".$town->getDepartment();

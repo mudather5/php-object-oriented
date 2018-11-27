@@ -1,13 +1,4 @@
-<?php
-require("../entities/City.php");
 
-
-$town = new City("Lille", "Nord-Pas de Calais"); //new object for exercice2
-
-
-
-
-?>
 
  <?php
 
@@ -25,8 +16,7 @@ function chargerClasse($classname)
 
 if(isset($_POST['name']) AND isset($_POST['damage'])){
     
-    $name = $_POST['name'];
-    $damage = $_POST['admage'];
+    $character = new Character(['name' => $_POST['name']]);
     
 }
 

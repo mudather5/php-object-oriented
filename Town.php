@@ -5,11 +5,11 @@ class Town{
    
     
     /**
-     * theCity
+     * theTown
      *
      * @return void
      */
-    public function theCity()
+    public function theTown()
     {
            
         echo "la ville est ".$this->name.", se situe dans le département ".$this->department;
@@ -19,7 +19,7 @@ class Town{
               
   }
   
-$city = new Town();
-$city->name = "Lille";
-$city->department = "Nord-Pas de Calais";
-$city->theCity();
+$town = new Town();//for creating new object
+$town->name = "Lille";
+$town->department = "Nord-Pas de Calais";
+$town->theTown();
